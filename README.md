@@ -12,8 +12,6 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -26,48 +24,12 @@
     <a href="https://github.com/JShezz/FAST-API"><strong>Explore the docs »</strong></a>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### Built With
-
-* Python
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
-* Python ^3.11
+* Install Python 3.11 <a href="https://realpython.com/installing-python/">Tutorial</a>
 * Poetry
   ```sh
   pip install poetry
@@ -83,48 +45,11 @@
    ```sh
    poetry install
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-[//]: # (<!-- CONTRIBUTING -->)
-
-[//]: # (## Contributing)
-
-[//]: # ()
-[//]: # (Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.)
-
-[//]: # ()
-[//]: # (If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".)
-
-[//]: # (Don't forget to give the project a star! Thanks again!)
-
-[//]: # ()
-[//]: # (1. Fork the Project)
-
-[//]: # (2. Create your Feature Branch &#40;`git checkout -b feature/AmazingFeature`&#41;)
-
-[//]: # (3. Commit your Changes &#40;`git commit -m 'Add some AmazingFeature'`&#41;)
-
-[//]: # (4. Push to the Branch &#40;`git push origin feature/AmazingFeature`&#41;)
-
-[//]: # (5. Open a Pull Request)
-
-[//]: # ()
-[//]: # (<p align="right">&#40;<a href="#readme-top">back to top</a>&#41;</p>)
-
-
+   
+### Running Locally
+```sh
+poetry run uvicorn main:app --reload
+```
 
 <!-- CONTACT -->
 ## Contact
@@ -132,9 +57,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 Joe Sherrell - joesherrell.js@gmail.com
 
 Project Link: [https://github.com/JShezz/FAST-API](https://github.com/JShezz/FAST-API)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
